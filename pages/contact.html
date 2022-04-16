@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>            
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/bg.js"></script>
+    <script src="/js/calc.js"></script>
+    
+    <!--CSS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" type="image/png" href="/img/logo.png">
+    
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <!--Google Adsense-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3093035573092981"
+     crossorigin="anonymous"></script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZ703SEK13"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-QZ703SEK13');
+    </script>
+  </head>
+  
+  <body>
+    <title>KartKalc.com || Contact</title>
+    <nav>
+    <button class="my-button" onclick="openNav()">
+        <i class="fas fa-bars"></i>
+    </button>
+        <ul id="mynav">
+          <img src="/img/logo.png" width="100px" alt="KartKalc.com"></img>
+            <li><a href="/">home.</a></li>
+            <li><a href="/pages/guide.html">guide.</a></li>
+            <li><a href="/pages/contact.html">contact.</a></li>
+            <li><a href="/pages/policies.html">privicy & terms.</a></li>
+        </ul>
+    </nav>
+    
+    <h1>KartKalc.com</h1>
+  
+  <form>
+  <label>Name:</label></br>
+  <input style="width: 100%; margin-bottom: 10px;" type="text" id="name">
+  <br>
+  <label>Email:</label></br>
+  <input style="width: 100%;" type="text" id="email">
+  <br>
+  <label>Issue:</label></br>
+  <input style="width: 100%; margin-bottom: 10px;" type="text" id="issue">
+  <br>
+  <label>Tell us more:</label></br>
+  <input style="width: 100%; height: 200px;" type="text" id="more">
+  <br><br>
+  <button type="submit" value="Submit" onclick="contact()">Submit</button>
+</form>
+    
+  </body>
+</html>
